@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{661ba6aa-e5b1-478c-b191-82da66a33a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{dcbf4999-e393-42d7-9668-3aced5fbcf87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\grammar.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\parser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\parsetree.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\token.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\language.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\token.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\grammar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\parser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\parsetree.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\language.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
