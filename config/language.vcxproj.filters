@@ -41,5 +41,8 @@
     <ClInclude Include="..\include\language.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\lalr_parser.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

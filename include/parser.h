@@ -6,6 +6,7 @@
 #include "parsetree.h"
 #include "language.h"
 
+#include "lalr_parser.h"
 
 class Parser {
 
