@@ -1,12 +1,14 @@
 
 #pragma once
 
-#include "types.h"
+#include "list.h"
+#include "array.h"
+#include "strings.h"
 
 #include "token.h"
 
 class definition {
-	List<definition*> source;
+	list<definition*> source;
 
 	token* tok;
 };
@@ -21,11 +23,11 @@ class Grammar {
 
 struct def_as_string {
 	string target;
-	List<string*> source;
+	list<string*> source;
 };
 
 struct grammar_as_rulles {
-	List<def_as_string*> rulles;
+	list<def_as_string*> rulles;
 
 	grammar_as_rulles& add_rulle(string target, alni toktype) {
 		return *this;

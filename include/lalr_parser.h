@@ -22,7 +22,7 @@ struct LALRGrammar {
 	lalr::GrammarCompiler compiler;
 
 	LALRGrammar(string path) {
-		std::ifstream file(path.str);
+		std::ifstream file(path.cstr());
 		std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
 		grammar = content.c_str();
 		file.close();
@@ -31,7 +31,7 @@ struct LALRGrammar {
 	}
 
 	const char* getc() {
-		return grammar.str;
+		return grammar.cstr();
 	}
 };
 

@@ -1,9 +1,8 @@
 
 #pragma once
 
-#include  "types.h"
-
-struct range : pair<alni, alni> {};
+#include  "tuple.h"
+#include  "array.h"
 
 class language {
 	alni symb_len;

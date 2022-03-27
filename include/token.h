@@ -1,7 +1,7 @@
 
 #pragma once
 
-#include "types.h"
+#include "list.h"
 
 class token {
 	alni type;
@@ -10,4 +10,4 @@ class token {
 	alni val_len;
 };
 
-typedef List<token> TokStream;
+typedef list<token> TokStream;
